@@ -6,9 +6,7 @@
         static void Main(string[] args)
         {
             int firstPosition = 0;
-            int Player1reach = firstPosition;
-            Random random = new Random();
-            Console.WriteLine("Snake and ladder begins \n");
+            int Playerreach = firstPosition;
 
             string[] Options = { "Snake", "Ladder", "rest" };
 
