@@ -6,21 +6,20 @@
         static void Main(string[] args)
         {
             int firstPosition = 0;
-            int Player1reach = firstPosition;
+            int Playeroneposition = firstPosition;
 
             string[] Options = { "Snake", "Ladder", "rest" };
 
 
-            if (Player1reach < firstPosition)
+            if (Playeroneposition < firstPosition)
             {
-                Player1reach = firstPosition;
+                Playeroneposition = firstPosition;
             }
             int Player_1 = 0;
 
-            if (Player_1 == Player1reach)
-            {
-                Player1reach = 0;
-                Console.WriteLine("Position reached by player 1 after diceroll :" + Player1reach + "/n");
+            if (Player_1 == Playeroneposition)
+            { 
+                Playeroneposition = firstPosition;  
             }
 
         }
