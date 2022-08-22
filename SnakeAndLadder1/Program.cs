@@ -14,16 +14,15 @@
             {
                 Playeroneposition = firstPosition;
             }
-           
-            int Player_1 = 0 ;
+            Random random = new Random();
+            int PlayerOneROll = random.Next(1 , 7);
+            Console.WriteLine("player One dice number is :" + PlayerOneROll);
 
-            if (Player_1 == 0)
-            {
-                Console.WriteLine("Player_1 got: " + Options[Player_1]);
-             
-                Playeroneposition = 0;
-               
-                Console.WriteLine("Position at 0 :" + Playeroneposition + "/n");
+            int Player_1 = random.Next(0,1) ;
+
+            if (Player_1 == Playeroneposition)
+            { 
+                Playeroneposition = firstPosition;  
             }
 
         }
