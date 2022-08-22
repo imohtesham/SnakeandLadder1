@@ -6,6 +6,7 @@
         {
             int firstPosition = 0;
             int Playerreach = firstPosition;
+            Console.WriteLine("Snake and ladder begins \n");
 
             string[] Options = { "Snake", "Ladder", "rest" };
 
