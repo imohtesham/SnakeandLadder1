@@ -8,7 +8,10 @@
             int firstPosition = 0;
             int Playerreach = firstPosition;
 
-            if (Player1reach < firstPosition)
+            string[] Options = { "Snake", "Ladder", "rest" };
+
+
+            if (Playerreach < firstPosition)
             {
                 Player1reach = firstPosition;
             }
